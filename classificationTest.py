@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
-import streamlit as st #Ui frame
+import streamlit as st #Ui 
 
 @st.cache_data 
 def load_data():
