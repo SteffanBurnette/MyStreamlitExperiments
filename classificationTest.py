@@ -4,7 +4,7 @@ from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
 import streamlit as st #Ui Framework for ml applications
 
-#What is data?'
+
 
 @st.cache_data 
 def load_data():
